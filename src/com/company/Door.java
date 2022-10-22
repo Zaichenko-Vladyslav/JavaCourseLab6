@@ -11,13 +11,11 @@
  * Inheritance
  * 1. Create a child  from the class Rectangle.
  * 2. Create another class as a super class for your one.
- * Or create a daughterly class for your one.
+ * Or create a daughter class for your one.
  *
  */
 
 package com.company;
-
-import java.time.LocalDate;
 
 public class Door extends Rectangle {
 
@@ -74,15 +72,15 @@ public class Door extends Rectangle {
 
     @Override
     public String toString() {
-        return "Door {" +
-                "length = " + super.getLength() +
-                ", width = " + super.getWidth() +
-                ", perimeter = " + super.getPerimeter() +
-                ", area = " + super.getArea() +
-                ", material = '" + material + '\'' +
-                ", price = " + price +
-                ", color = '" + color + '\'' +
-                ", lock = " + lock +
-                '}' + "\n";
+        return "Door: " +
+                "\nlength = " + super.getLength() +
+                "\nwidth = " + super.getWidth() +
+                "\nperimeter = " + super.getPerimeter() +
+                "\narea = " + super.getArea() +
+                "\nmaterial = '" + material + '\'' +
+                "\nprice = " + price +
+                "\ncolor = '" + color + '\'' +
+                "\nlock = " + lock +
+                "\n";
     }
 }

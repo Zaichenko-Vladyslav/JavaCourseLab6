@@ -54,14 +54,14 @@ public class Rhombus extends Parallelogram {
 
     @Override
     public String toString() {
-        return "Rhombus {" +
-                "Rhombus side = " + side +
-                ", Rhombus angle = " + angle +
-                ", \nPerimeter = " + getPerimeter() +
-                ", Long Diagonal = " + getLongDiagonal() +
-                ", \nShort Diagonal = " + getShortDiagonal() +
-                ", \nThis is Square? - " + isSquare() +
-                ", This is Rhombus? - " + isRhombus() +
-                '}';
+        return "Rhombus: " +
+                "\nRhombus side = " + side +
+                "\nRhombus angle = " + angle +
+                "\nPerimeter = " + getPerimeter() +
+                "\nLong Diagonal = " + getLongDiagonal() +
+                "\nShort Diagonal = " + getShortDiagonal() +
+                "\nThis is Square? - " + isSquare() +
+                "This is Rhombus? - " + isRhombus() +
+                "\n";
     }
 }

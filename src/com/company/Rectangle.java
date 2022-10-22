@@ -17,8 +17,6 @@
 
 package com.company;
 
-import java.util.Objects;
-
 public class Rectangle {
 
     private int length;
@@ -32,6 +30,7 @@ public class Rectangle {
     }
 
     public Rectangle() {
+
     }
 
     // Getters and setters for class Rectangle
@@ -70,12 +69,11 @@ public class Rectangle {
 
     @Override
     public String toString() {
-        return "Rectangle{" +
-                "length = " + length +
-                ", width = " + width +
-                ", perimeter = " + getPerimeter() +
-                ", area = " + getArea() +
-                '}';
+        return "Rectangle:" +
+                "\nlength = " + length +
+                "\nwidth = " + width +
+                "\nperimeter = " + getPerimeter() +
+                "\narea = " + getArea() +
+                "\n";
     }
-
 }

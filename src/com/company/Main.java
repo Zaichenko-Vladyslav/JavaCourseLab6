@@ -21,12 +21,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-    Door entranceDoor = new Door (1,3,"metal",3600,"white",true);
+        Door entranceDoor = new Door (1,3,"metal",3600,"white",true);
         System.out.println(entranceDoor);
 
-    Rhombus rhombus = new Rhombus(3,Math.PI * 0.5);
+        Rhombus rhombus = new Rhombus(3,Math.PI * 0.5);
         System.out.println(rhombus);
-
     }
 }
 
